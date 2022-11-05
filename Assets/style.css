@@ -1,5 +1,7 @@
 body{
-    background-color: darksgrey;
+    background-color: gray;
+    display: flexbox;
+
 }
 form {
     display: flex;

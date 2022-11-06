@@ -1,13 +1,9 @@
 body{
-    background-color: gray;
-    display: flexbox;
-
-}
-form {
+    background-color: #222;
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     margin: 0;
-    padding: 300px;
-    flex-direction: column;
+    height: 100vh;
+
 }

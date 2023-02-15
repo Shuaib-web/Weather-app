@@ -22,3 +22,30 @@ body{
     top: 0;
     left: 20px;
 }
+.fiveDay {
+    --padding: 1rem;
+    background: white;
+    border: 1px solid #777;
+    border-radius: .25rem;
+    overflow: hidden;
+  }
+
+.fiveDay-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    align-items: flex-start;
+  }
+  
+  .fiveDay {
+    --padding: 1rem;
+    background: rgb(199, 162, 162);
+    border: 1px solid #777;
+    border-radius: .25rem;
+    overflow: hidden;
+  }
+  .forecast-body {
+    font-size: .9rem;
+    padding: 0 var(--padding);
+  }
+
